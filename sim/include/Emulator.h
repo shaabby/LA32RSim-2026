@@ -4,6 +4,9 @@
 #include "Memory.h"
 #include "Difftest.h"
 #include "Debug.h"
+#ifdef CONFIG_DUMP_WAVE
+#include "verilated_vcd_c.h"
+#endif
 
 class VCPU;
 
